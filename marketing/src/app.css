@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply text-5xl antialiased mb-7;
+  }
+  .description {
+    @apply text-3xl antialiased text-gray-500 max-w-prose text-center mb-14;
+  }
+  .btn {
+    @apply rounded px-3 py-2 bg-indigo-800 text-white text-lg hover:bg-indigo-900;
+  }
+}
